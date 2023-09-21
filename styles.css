@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+}
+
+/* Header CSS */
+header {
+    background-color: black;
+    padding-bottom: 20px;
+    color: #ffff;
+}
+
+h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 4em;
+    padding-top: 25px;
+    font-weight: 700;
+}
+
+h2 {
+    font-family: Lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+}
+
+h3 {
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+.skills,
+.about-me,
+.projects,
+.education,
+.interests {
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    float: right;
+    padding: 5px;
+    position: relative;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    background-color: #FAF2D3;
+}
+
+main {
+    margin-left: 160px;
+    padding: 10px;
+    background-color: #F1EFEF;
+    overflow: auto;
+    font-size: large;
+    font-family: Lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.college {
+    padding: 15px 0 0 0;
+}
+
+
+nav {
+    float: left;
+    width: 150px;
+    padding: 10px;
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+table {
+    margin-top: 20px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+td {
+    border: 2px solid black;
+    padding: 10px;
+}
+
+thead,
+th {
+    border: 2px solid black;
+}
+
+th {
+    padding: 0 15px;
+}
+
+li {
+    padding: 10px;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+}
+
+.about,
+.project,
+.interest {
+    padding-bottom: 10px;
+}
+
+.middle-container {
+    margin: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.wimbledon-best {
+    padding-left: 35px;
+}
+
+audio,
+video {
+    margin-top: 30px;
+}
+
+div.audio {
+    width: 360px;
+}
+
+/* Footer CSS */
+footer {
+    background-color: burlywood;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 35px
+}
+
+.footer-links {
+    padding: 40px 0 0 0;
+}
+
+a.footer-link {
+    text-decoration: none;
+    font-family: Lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    margin: 0 50px;
+    color: white;
+}
+
+a.footer-link:hover {
+    color: black;
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    margin-top: 50px;
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+}
+
+/* @media only screen and (max-width: 700px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px) {
+    .responsive {
+      width: 100%;
+    }
+  } */
+
+
+form.form-example {
+    display: table;
+}
+
+div.form-example {
+    display: table-row;
+}
+
+label,
+input {
+    display: table-cell;
+    margin-bottom: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+summary {
+    font-size: 1.3rem;
+    padding-bottom: 20px;
+}
+
+.form-container {
+    margin: 10px auto;
+}
+
+form,
+summary,
+button {
+    font-family: Lato, Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+menu {
+    padding: 20px
+}
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button2 {
+    background-color: white;
+    color: black;
+    border: 2px solid #008CBA;
+}
+
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+	body { margin: 0; }
+	#wrapper { width: auto; }                                                              
+	main { margin-top: 100px;
+        margin-left: 0; }
+	nav { width: 80%; }
+	nav li { display: inline-block; 
+               padding: 0.5em; }
+	nav ul { text-align: center; }
+	nav a { display: block; 
+        border-style: none; }
+	p { font-size: 90%; }
+    .middle-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+  	figure { display: none;}
+ 	nav, nav ul, nav li { padding: 0; }
+ 	nav li { display: block; }
+    nav a { display: block; 
+      	padding: 0.5em 0;
+        border-bottom: 2px ridge #00005D; }
+    }
+    div.desc{
+        font-size: 0.5em;
+    }
+    .middle-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    video{
+        width: 240px;
+    }
+
+    .audio{
+        margin-top: 15px;
+    }
